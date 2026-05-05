@@ -13,9 +13,22 @@ body {
   font-weight: 800;
 }
 
+/* My selector */
+.para.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+/* My selector ^^^*/
+
 .para {
   font-size: 22px;
 }
+
+/* My selector */
+.para {
+  font-size: 30px;
+}
+/* My selector ^^^*/
 
 .confirm {
   background: green;
@@ -29,6 +42,15 @@ body {
   font-size: 20px;
 }
 
+/* My selector */
+.confirm-button,
+.confirm{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+/* My selector ^^^*/
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
@@ -40,3 +62,10 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* My selector */
+.text.child {
+  font-size: 14px;
+  font-weight: 800;
+}
+/* My selector ^^*/
